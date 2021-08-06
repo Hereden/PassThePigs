@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".JugadorVsJugador"
+    android:background="@drawable/pantallajuego">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton8"
+        android:background="@drawable/bpasar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00"
+        android:id="@+id/textView2"
+        android:background="#fff700"
+        android:singleLine="false"
+        android:layout_below="@+id/imageButton8"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00"
+        android:id="@+id/textView3"
+        android:background="#ed0606"
+        android:singleLine="false"
+        android:layout_below="@+id/imageButton8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textView2"
+        android:autoText="false" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/pata"
+        android:visibility="invisible"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageButton11"
+        android:layout_toStartOf="@+id/imageButton11"
+        android:layout_alignTop="@+id/textView6"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton11"
+        android:src="@drawable/hand"
+        android:background="#00ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/solomillo"
+        android:background="#00ffffff"
+        android:visibility="invisible"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_toRightOf="@+id/imageButton11"
+        android:layout_toEndOf="@+id/imageButton11"
+        android:layout_alignParentLeft="false"
+        android:layout_alignBottom="@+id/imageButton11"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerInParent="true"
+        android:layout_alignTop="@+id/textView6"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P1:  "
+        android:id="@+id/textView4"
+        android:background="#fff700"
+        android:singleLine="false"
+        android:layout_below="@+id/imageButton8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="P2:  "
+        android:id="@+id/textView5"
+        android:background="#ed0606"
+        android:singleLine="false"
+        android:layout_below="@+id/imageButton8"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Obtuviste: Oinker"
+        android:id="@+id/textView6"
+        android:visibility="invisible"
+        android:background="#60a6f1f8"
+        android:autoText="false"
+        android:textSize="20dp"
+        android:layout_above="@+id/imageButton11"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_alignRight="@+id/imageButton11"
+        android:layout_alignEnd="@+id/imageButton11"
+        android:layout_below="@+id/imageButton10" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton10"
+        android:visibility="invisible"
+        android:background="#ffff00"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ganaste2"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/textView2" />
+
+</RelativeLayout>

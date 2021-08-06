@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pass The Pigs</string>
+    <string name="cerdos_fuera">Cerdos-Fuera, pierdes los puntos de ese turno y se acaba tu turno</string>
+    <string name="lados">Lados(con o sin punto) es solo 1 punto</string>
+    <string name="pata">Pata, 5 puntos</string>
+    <string name="solomillo">Solomillo, 5 puntos</string>
+    <string name="trompa">Trompa, 10 puntos</string>
+    <string name="cachete">Cahete, 15 puntos</string>
+    <string name="dos_solomillo">Dos solomillo, 20 puntos</string>
+    <string name="dos_pata">Dos pata, 20 puntos</string>
+    <string name="dos_trompa">Dos trompa, 40 puntos</string>
+    <string name="dos_cachete">Dos cachete, 60 puntos</string>
+    <string name="combo">Combo, la suma de ambas posiciones</string>
+    <string name="oinker">Oinker, pierdes todos tus puntos y se acabe tu turno</string>
+    <string name="objetivo">El objetivo del juego es llegar a los 100 puntos antes que el otro</string>
+    <string name="obtuviste_cerdos_fuera">Obtuviste: Cerdos-fuera</string>
+    <string name="obtuviste_lados">Obtuviste: Lados</string>
+    <string name="obtuviste_dos_solomillo">Obtuviste: Dos Solomillo</string>
+    <string name="obtuviste_dos_pata">Obtuviste: Dos Pata</string>
+    <string name="obtuviste_dos_trompa">Obtuviste: Dos Trompa</string>
+    <string name="obtuviste_dos_cachete">Obtuviste: Dos Cachete</string>
+    <string name="obtuviste_combo">Obtuviste: Combo</string>
+    <string name="obtuviste_oinker">Obtuviste: Oinker</string>
+</resources>
